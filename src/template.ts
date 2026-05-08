@@ -70,6 +70,7 @@ const statusMap: Record<string, string> = {
   upcoming: '<span class="evento-status status-upcoming">Em breve</span>',
   soldout:  '<span class="evento-status status-soldout">Esgotado</span>',
   free:     '<span class="evento-status status-free">Entrada Livre</span>',
+  past:     '<span class="evento-status status-upcoming">Encerrado</span>'
 };
 
 function eventCard(e: Event): string {
@@ -185,7 +186,7 @@ export function buildHtml(d: BandData): string {
 <div id="shows" class="shows-wrapper">
   <section>
     <div class="section-label">003 — Agenda</div>
-    <h2 class="section-title">Próximos Shows</h2>
+    <h2 class="section-title">Shows</h2>
     <div class="shows-list">
       ${shows.map(showRow).join("")}
     </div>

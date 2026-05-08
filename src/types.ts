@@ -38,7 +38,7 @@ export interface Event {
   location: string;
   address: string;
   description: string;
-  status: "upcoming" | "soldout" | "free";
+  status: "past"| "upcoming" | "soldout" | "free";
   link?: string;
   linkLabel?: string;
 }

@@ -26,7 +26,7 @@ app.get("/api/data", (_req, res) => {
   res.json(bandData);
 });
 
-app.listen(PORT, () => {
+app.listen(Number(PORT), "0.0.0.0", () => {
   console.log(`\n🎸 ${bandData.band.name} rodando em http://localhost:${PORT}`);
   console.log(`   Para editar o conteúdo: src/data.ts`);
   console.log(`   Para editar o visual:   public/css/style.css`);

@@ -1,0 +1,13 @@
+Coloque aqui as fotos da galeria.
+Nomes esperados (configurados em src/data.ts):
+- show-belem-2024.jpg
+- estudio-2023.jpg
+- festival-norte-2024.jpg
+- kaio-pedro-fortaleza.jpg
+- ensaio-porao-2022.jpg
+- mara-baixo.jpg
+- tiago-bateria.jpg
+- soundcheck-saoluis.jpg
+
+Você pode adicionar mais fotos editando o array "gallery" em src/data.ts.
+Formatos suportados: .jpg, .jpeg, .png, .webp

@@ -1,0 +1,8 @@
+Coloque aqui as fotos dos integrantes.
+Nomes esperados (configurados em src/data.ts):
+- kaio.jpg
+- mara.jpg
+- tiago.jpg
+- pedro.jpg
+
+Formatos suportados: .jpg, .jpeg, .png, .webp
